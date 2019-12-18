@@ -1,7 +1,7 @@
 # vue-gifplayer
 Facebook preview and gif loader - gif player
 
-###demo
+### demo
 ![a gif of gif loaded using vue-gifplayer](http://g.recordit.co/HVGXv0w3nt.gif)
 
 ### Install

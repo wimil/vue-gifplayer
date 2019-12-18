@@ -1,4 +1,4 @@
-#vue-gifplayer
+# vue-gifplayer
 Facebook preview and gif loader - gif player
 
 ###demo
@@ -21,29 +21,29 @@ npm i vue-playergif -s
 
 ### Props
 
-**src** 
+**src:** 
 url of the gif file in mp4
 
-**still**
+**still:**
 URL for an image preview of your Gif. (can be any image, but width should be the same a gif)
 
-**width**
+**width:**
 gif width
 
-**height**
+**height:**
 height gif
 
-**autoplay**
+**autoplay:**
 the gif plays automatically
 
-**loop**
+**loop:**
 the gif plays indefinitely
 
-**type** ```default: video```
+**type:** ```default: video```
 for now it only accepts video format (video/mp4)
 
 
-**by**
+**by:**
 ```
 Object:
 {
@@ -53,5 +53,5 @@ Object:
 ```
 information about the gif provider
 
-**showGif** ```Default: true```
+**showGif:** ```Default: true```
 show or hide gif provider

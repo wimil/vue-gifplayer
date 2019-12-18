@@ -1,0 +1,114 @@
+.gif-player {
+  position: relative;
+  display: inline-flex;
+  font-family: Arial, Helvetica, sans-serif;
+
+  //warp
+  .OOKpgQoKM {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  //degradado
+  .YnXDvQvpM {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 4%,
+      rgba(0, 0, 0, 0) 85%,
+      rgba(0, 0, 0, 0.55) 100%
+    );
+  }
+  //contenido
+  .gGVvBwZGQ {
+    cursor: pointer;
+    .zqxOjvMAN {
+      height: 66px;
+      width: 66px;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
+      transition: opacity 0.4s, -webkit-transform 0.4s;
+      transition: transform 0.4s, opacity 0.4s;
+      transition: transform 0.4s, opacity 0.4s, -webkit-transform 0.4s;
+      .btn-play {
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 2px dashed #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
+        color: #fff;
+        height: 66px;
+        width: 66px;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn-play-text {
+          &::after {
+            content: "GIF";
+            transform-origin: center center;
+          }
+        }
+      }
+    }
+    &.loading {
+      .zqxOjvMAN {
+        .btn-play {
+          animation: spin 3s infinite linear;
+          transition: linear all 3s;
+          .btn-play-text {
+            animation: counter 3s infinite linear;
+            transition: linear all 3s;
+          }
+        }
+      }
+    }
+  }
+
+  //copyrigth
+  .vmDOAnrkZ {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .BxKNmZlVJ {
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+  }
+}
+
+//animations
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes counter {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

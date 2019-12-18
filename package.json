@@ -1,7 +1,7 @@
 {
   "name": "vue-gifplayer",
-  "version": "1.0.0",
-  "description": "Facebook preview and gif loader - gif player",
+  "version": "1.0.1",
+  "description": "Facebook  preview style and gif loader - gif player",
   "repository": "https://github.com/wimil/vue-gifplayer",
   "main": "src/index.js",
   "scripts": {

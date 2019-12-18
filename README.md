@@ -53,5 +53,5 @@ Object:
 ```
 information about the gif provider
 
-**showGif:** ```Default: true```
+**showBy:** ```Default: true```
 show or hide gif provider

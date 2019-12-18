@@ -7,7 +7,7 @@ Facebook preview and gif loader - gif player
 ### Install
 
 ```bash
-npm i vue-playergif -s
+npm i vue-gifplayer -s
 ```
 
 ### Usage

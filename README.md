@@ -12,6 +12,16 @@ npm i vue-gifplayer -s
 
 ### Usage
 
+**import css or sass**
+```
+in your main.js
+import "vue-gifplayer/src/gif.css"
+
+in your sass file
+@import "node_modules/vue-gifplayer/src/gif.scss";
+```
+
+
 ```html
 <gif-player
   src="https://media0.giphy.com/media/l0MYJnJQ4EiYLxvQ4/giphy.mp4"
